@@ -22,7 +22,7 @@ cd backend
 npm install
 npm start
 ```
-# backend runs on http://localhost:5000
+backend runs on http://localhost:5000
 
 ### Frontend
 ```
@@ -30,9 +30,10 @@ cd frontend
 npm install
 npm run dev
 ```
-# frontend runs on http://localhost:5173
+frontend runs on http://localhost:5173
 
 If you want to run both together in one terminal, consider using concurrently, but separate terminals are fine.
+---
 
 ## API endpoints
 
@@ -49,13 +50,18 @@ If you want to run both together in one terminal, consider using concurrently, b
 6. POST /api/checkout — body { name, email } → returns { receiptId, total, timestamp }
 
 7. GET /api/receipts — list saved receipts (in-memory)
+---
 
 ## Screenshots
 
 [Products grid](./images/productsGrid.png)
+
 [Cart with items](./images/cartWithItems.png)
+
 [Checkout form](./images/checkoutForm.png)
+
 [Receipt after checkout](./images/ReceiptAfterCheckout.png)
+---
 
 ## Notes, limitations & next steps
 1. Data is stored in memory; server restart clears cart & receipts. To persist, add MongoDB/SQLite and models.

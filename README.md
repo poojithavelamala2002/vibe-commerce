@@ -60,6 +60,8 @@ If you want to run both together in one terminal, consider using concurrently, b
 
 ![Checkout form](./images/checkoutForm.png)
 
+![Receipt after checkout](./images/ReceiptAfterCheckout.png)
+
 ---
 
 ## Notes, limitations & next steps

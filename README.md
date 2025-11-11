@@ -54,13 +54,12 @@ If you want to run both together in one terminal, consider using concurrently, b
 
 ## Screenshots
 
-[Products grid](./images/productsGrid.png)
+![Products grid](./images/productsGrid.png)
 
-[Cart with items](./images/cartWithItems.png)
+![Cart with items](./images/cartWithItems.png)
 
-[Checkout form](./images/checkoutForm.png)
+![Checkout form](./images/checkoutForm.png)
 
-[Receipt after checkout](./images/ReceiptAfterCheckout.png)
 ---
 
 ## Notes, limitations & next steps
